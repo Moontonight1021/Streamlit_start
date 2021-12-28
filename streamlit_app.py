@@ -32,3 +32,8 @@ map_data = pd.DataFrame(
 )
 
 st.map(map_data)
+
+# widget
+
+x = st.slider('x')
+st.write(x, 'squared is', x*x)
